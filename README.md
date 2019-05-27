@@ -1,31 +1,22 @@
+# Aligned - Yoga Pose Correction App
 
-<div align="center">
-    <img src="code/aligned/app/static/images/aligned_logo.png",style="height:50px;">
-</div>
+## Project Description
+Aligned is a yoga pose correction web app that processes video of a user’s yoga pose and provides feedback on how to improve the pose. The app was built using Flask and runs on an Amazon EC2 instance with GPU for deep learning.
 
-# ALIGNED
-<br>
-<p style="font-size: 25px"> <b>Aligned</b> is a yoga pose correction application that processes images and videos of a user’s yoga poses and provides feedback on how to improve the pose if needed.</p>
-<p style="font-size:22px"> <b>Aligned</b> uses machine learning models trained on a variety of correct (safe for your muscles and joints) and incorrect (unsafe for your health) yoga poses such that it can classify what specifically a user is doing wrong. </p>
-<p>As the core technology, we are using [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), an open-source library, which has been developed by Carnegie Mellon University and is built upon a neural network. </p>
+The overall process is as follows:
+ - User logs in and selects which pose to evaluate
+ - App provides instructions on how to execute the pose
+ - Once ready, the user records a video of themselves doing the pose within the app (using webcam)
+ - Video is automatically processed using OpenPose, an open-source, deep learning-based library for keypoint detection developed at Carnegie Mellon University.
+ - The app uses the keypoints from OpenPose to classify different pose faults using a rule-based system.
+ - Feedback is provided to the user on how they can safely improve their pose.
 
-<p>Our application allows yoga enthusiasts to film and upload their practice from the comfort of their own home while still being able to receive valuable feedback on their poses, thus minimizing the risk of injury. </p>
+*Note that the app's website is not currently available due to the high cost of running the EC2 instance*
 
-## __Contributiors__
-* [Katja Wittfoth](https://github.com/katjawittfoth)
-* [Brian Dorsey](https://github.com/bdorsey2)
-* [Quinn Keck](https://github.com/keck343)
-* [Evan Calkins](https://github.com/ecalkins)
-* [Sankeerti Haniyur](https://github.com/skhaniyur)
-* [Connor Swanson](https://github.com/conswanson)
-* [Maria Vasilenko](https://github.com/mashamasha)
-
-<br>
-<br>
-<br>
-<img src="code/aligned/app/static/images/aligned_pic.png">
-
-
-<!--# product-analytics-group-project-group10
-product-analytics-group-project-group10 created by GitHub Classroom
->>>>>>> a34d89dd9fe23c79bebf03380dead843bc60e092-->
+## Important Links
+ - Demo video: https://www.youtube.com/watch?v=t8HMLYR1-FE&feature=youtu.be
+ - Slides for final presentation to VCs: https://github.com/ecalkins/aligned_yoga_app/blob/master/Aligned_VC_Presentation_Deck.pdf
+ - Flask routes: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/app/routes.py
+ - Video processing script: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/process_openpose_user.py
+ - Modeling: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/modeling.py
+ - More info on OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
