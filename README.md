@@ -20,3 +20,4 @@ The overall process is as follows:
  - Video processing script: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/process_openpose_user.py
  - Modeling: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/modeling.py
  - More info on OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+
