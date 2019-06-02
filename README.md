@@ -14,9 +14,9 @@ The overall process flow is as follows:
 Aligned was selected by USF faculty as one of the top apps of 2019 and, as a result, our team had the opportunity to present the app to a panel of VCs. We plan to continue developing Aligned as a side project in the near future. *Please note that the app's website is not currently operational due to the high cost of continuously running the EC2.*
 
 ## Important Links
- - Demo video: https://www.youtube.com/watch?v=t8HMLYR1-FE&feature=youtu.be
- - Slides for final presentation to VCs: https://github.com/ecalkins/aligned_yoga_app/blob/master/Aligned_VC_Presentation_Deck.pdf
- - Flask routes: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/app/routes.py
- - Video processing script: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/process_openpose_user.py
- - Modeling: https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/modeling.py
- - OpenPose details: https://github.com/CMU-Perceptual-Computing-Lab/openpose
+ - [Demo video](https://www.youtube.com/watch?v=t8HMLYR1-FE&feature=youtu.be)
+ - [Slides for final presentation to VCs](https://github.com/ecalkins/aligned_yoga_app/blob/master/Aligned_VC_Presentation_Deck.pdf)
+ - [Flask routes](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/app/routes.py)
+ - [Video processing script](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/process_openpose_user.py)
+ - [Modeling](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/modeling.py)
+ - [Info on OpenPose library](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
