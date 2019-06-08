@@ -19,4 +19,5 @@ Aligned was selected by USF faculty as one of the top apps of 2019 and, as a res
  - [Flask routes](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/app/routes.py)
  - [Video processing script](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/process_openpose_user.py)
  - [Modeling](https://github.com/ecalkins/aligned_yoga_app/blob/master/code/aligned/modeling.py)
- - [Info on OpenPose library](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+ - [OpenPose research paper](https://arxiv.org/pdf/1611.08050.pdf)
+ - [OpenPose repo](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
